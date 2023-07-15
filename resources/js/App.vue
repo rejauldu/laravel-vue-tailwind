@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1 class="text-blue-500">{{ greeting }}</h1>
-        <button class="bg-slate-300 p-3 hover:bg-slate-200 hover:text-slate-500 rounded" @click="increment">Increment</button>
+        <button class="btn-primary" @click="increment">Increment</button>
     </div>
 </template>
 
